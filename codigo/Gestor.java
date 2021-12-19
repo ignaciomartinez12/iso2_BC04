@@ -8,7 +8,7 @@ public class Gestor extends Ciudadano {
 	public void verListadoDeEnfermedades() {
 		throw new UnsupportedOperationException();
 		int[] names = "SELECT * FROM Enfermedades";
-		for(int i = 0; i < names.length() ; i++){
+		for(int i = 0; i < names.length(); i++){
 			System.out.println(names[i]);	
 		}
 	}
@@ -24,6 +24,10 @@ public class Gestor extends Ciudadano {
 
 	public void verListadoDeCampanias() {
 		throw new UnsupportedOperationException();
+		int[] campanias = "SELECT * FROM Campañas";
+		for(int i=0; i<campanias.length(); i++){
+			System.out.println(campanias[i]);
+		}
 	}
 
 	public void verInformacionCiudadano() {
