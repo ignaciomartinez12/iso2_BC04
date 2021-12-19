@@ -15,6 +15,11 @@ public class Gestor extends Ciudadano {
 
 	public void verListadoDePacientes() {
 		throw new UnsupportedOperationException();
+		
+		int[] pacientes = "SELECT * FROM Pacientes";
+		for(int i=0; i<pacientes.length(); i++){
+			System.out.println(pacientes[i]);
+		}
 	}
 
 	public void verListadoDeCampanias() {
